@@ -1,0 +1,819 @@
+body,html{
+  width: 100%;
+  height:100%;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav.navbar{
+  border: 0px;
+  z-index: 2;
+  height: 100px;
+
+}
+
+
+
+.navbar-brand {
+  position: absolute;
+  margin-top: -15px;
+}
+
+.navbar-brand img{
+   width: 170px;
+   height: 130px;
+}
+
+nav li{
+  top: 35px;
+  height: 50px;
+}
+
+
+#menu{
+  border: 0px;
+  width: 100%;
+}
+
+
+#menu_bttn:focus{
+  background-color: transparent !important;
+  border: 0;
+}
+nav li a{
+  color: #b78612 !important;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 30px;
+}
+
+.navbar-fixed-top{
+  background-color: rgba(0,0,0,0.6) !important;
+  transition: 0.75s ease;
+}
+
+.navbar-fixed-top.scrolled{
+  background-color: #373942 !important;
+}
+
+
+.landing{
+  position: relative;
+  height: 65%;
+  background-image: url("images/landing4.jpg");
+  background-size:100% 100%;
+}
+
+.landing:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.landing h1{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 60px;
+  z-index: 1;
+  position: relative;
+  color: white;
+  top: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.card_div{
+  position: relative;
+  top: -70px;
+  max-width: 49%;
+}
+
+
+.card_holder{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.colmn{
+
+  margin: 10px;
+
+}
+.card{
+
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #a47d20;
+  height: 350px;
+}
+
+.cards h5{
+
+  font-family: 'Cinzel', serif;
+  margin-top: -10px;
+  text-align: left;
+  margin-left: 5px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.cards p{
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+.cardz h5{
+  color: black;
+  font-size: 30px;
+  text-align: left;
+}
+
+.suggestion{
+  position: relative;
+}
+
+
+
+.ping{
+  margin-left: -100px;
+  margin-top: 60px;
+}
+
+.ping h1{
+  color: #a47d20;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.ping p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.ping button{
+  background-color: #a47d20;
+  border: 1px solid #a47d20;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+
+.division{
+  position: relative;
+  margin-top: -220px;
+  z-index: -1;
+  background-color: #373942;
+  height: 150px;
+  text-align: left;
+  width: 60%;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+}
+
+
+.filler h4{
+  margin-top: 50px;
+  font-size: 30px;
+  color: #ab8426;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.aboutus{
+  position: relative;
+  max-width: 90%;
+  z-index: -1;
+  padding-top: 100px;
+}
+
+.aboutus h1{
+  margin-top: 10%;
+  font-size: 50px;
+  color: #a47d20;
+  font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.aboutus p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.image1{
+  width: 250px;
+  height: 250px;
+  margin-top: 160px;
+}
+
+.image2{
+  width: 250px;
+  height: 250px;
+}
+
+.frame{
+  width: 250px;
+  height: 350px;
+  border: 2px solid #a47d20;
+  margin-left: 100px;
+  margin-top: -300px;
+}
+
+.patrons{
+  position: relative;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: white;
+
+}
+
+.patrons h1{
+  font-size: 45px;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #a47d20;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.logos{
+  padding:10px;
+  text-align: center;
+}
+.patrons img{
+  padding: 15px;
+  height: 80px;
+  width: 140px;
+  text-align: center;
+}
+
+
+
+.filler{
+  position: relative;
+  height: auto;
+  background-image: url("images/landing4.jpg");
+  background-size:100% 200%;
+  background-position: center;
+  z-index: -1;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.filler:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.projects{
+  position: relative;
+  max-width: 80%;
+  padding-top: 110px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.title_div{
+  background-color: #a47d20;
+  height: 250px;
+  margin: 0;
+  text-align: left;
+  padding: 10px;
+  background-color: #a47d20;
+}
+
+.title_div h1{
+  margin: 0;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 50px;
+}
+
+.footer{
+  position: relative;
+  height: auto;
+  background-image: url("images/landing4.jpg");
+  background-size:100% 250%;
+  background-position: center;
+  z-index: -1;
+  margin-top: 70px;
+}
+
+.footer:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footerheading{
+  margin-top: 20px;
+  color: #a47d20 !important;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 30px;
+}
+
+.footer a{
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 25px;
+
+}
+
+.footer p{
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 35px;
+}
+
+.footer i{
+  color: color: white !important;
+}
+
+
+
+#copyright p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.flex-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  overflow: hidden;
+}
+
+
+.cardz{
+  display: none;
+  padding: 8px;
+
+}
+.card1{
+  background-color:#1d1e27;
+
+}
+.card2{
+  background-color:#292a31;
+}
+.card3{
+  background-color:#42434a;
+}
+
+
+.cardz1{
+  background-image: url("images/b1.jpg");
+  background-size: 100% 100%;
+
+}
+
+.cardz2{
+  background-image: url("images/b2.jpg");
+  background-size: 100% 100%;
+}
+.cardz3{
+  background-image: url("images/b4.jpg");
+  background-size: 100% 100%;
+}
+
+.big{
+  flex-grow: 1;
+  transition: 0.2s ease;
+
+}
+
+
+
+.small{
+  flex-shrink: 0;
+  width: 120px;
+  transition: 0.2s ease;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.modal-dialog{
+  position: absolute;
+  top: 10%;
+
+}
+.modal-content{
+
+  background-image: url("images/black6.jpg") !important;
+  background-size:100% 100%;
+  padding: 20px;
+  height: 500px;
+  opacity: 5;
+  box-sizing: content-box;
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+}
+
+
+
+.contactForm h2{
+  color: #98701d;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contactForm .formBox{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.contactForm .formBox .inputBox{
+  position: relative;
+  margin: 0 0 35px 0;
+}
+
+
+
+input,textarea{
+  background-color: transparent !important;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #6f6f6f !important;
+  border: none;
+  border-bottom: 1px solid #845a0b;
+  outline: none;
+  resize: none;
+
+}
+
+.inputBox{
+  background-color: transparent !important;
+}
+
+
+textarea{
+  min-height: 100px;
+}
+
+.inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #6f6f6f;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+input:focus ~ span, textarea:focus ~ span{
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #8e763b;
+}
+input:valid ~ span, textarea:valid ~ span{
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #8e763b;
+
+}
+
+.inputBox button{
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #bb974b;
+  color: #bb974b;
+  font-size: 20px;
+  background-color: #0b1924;
+}
+
+.inputBox button:hover{
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #0b1924;
+  color: #0b1924;
+  font-size: 20px;
+  background-color: #8e702c;
+}
+
+.modal i{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 40px;
+  color: #98701d;
+}
+
+  @media only screen and (max-width:600px) {
+
+  .landing{
+    background-size: 140% 100%;
+  }
+
+  .landing h1{
+    font-size: 40px;
+  }
+
+  #menu{
+      position: absolute;
+      width: 100%;
+      background-color:rgba(0,0,0,0.5) ;
+      z-index: -1;
+      text-align: center;
+      margin-top: -5px;
+    }
+    #menu ul{
+      margin-top:-25px;
+      height: 200px;
+    }
+
+    #menu.scrolled{
+      background-color: #373942 !important;
+    }
+
+    nav.navbar{
+      height: 80px;
+    }
+
+  .card_div{
+    top: -40px;
+    max-width: 100%;
+  }
+
+  .card_holder{
+    display: block;
+  }
+
+  .cards{
+    display: flex;
+    height: auto;
+  }
+
+
+  .card h5{
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .cards p{
+
+    display: none;
+  }
+
+
+  #arrow{
+    width: 30px;
+    height: 30px;
+  }
+
+  .big{
+    flex-grow: 0;
+
+  }
+
+  .small{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .ar img{
+    width: 100%;
+    height:120%;
+  }
+
+  .division{
+    margin-top: -180px;
+    height: 80px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .ping{
+    text-align: center;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+
+  .ping p{
+    margin-top: -10px;
+    font-size: 15px;
+  }
+  .ping h1{
+    font-size: 25px;
+  }
+
+
+  .ping button{
+
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+
+  }
+
+  .aboutus{
+    max-width: 100%;
+    margin-top: 80px;
+    padding-top: 0px !important;
+  }
+
+  .aboutus h1{
+    margin-top: 10%;
+    font-size: 50px;
+
+  }
+
+  .aboutus p{
+    font-size: 15px;
+  }
+
+  .frames{
+    position: absolute;
+    margin-top: -30px;
+  }
+  .image1{
+    width: 140px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+
+  .image2{
+    width: 140px;
+    height: 120px;
+    margin-left: -50px;
+
+
+  }
+
+  .frame{
+    width: 140px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: -200px;
+  }
+
+  .patrons{
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+
+  }
+
+  .patrons h1{
+    font-size: 35px;
+
+    height: 100px;
+    padding-top: 20px;
+  }
+
+  .logos{
+    padding:10px;
+  }
+  .patrons img{
+    padding: 15px;
+    height: 50px;
+    width: 100px;
+  }
+
+  .patron_logos{
+    margin-top: 20px;
+  }
+
+
+  .filler h4{
+    font-size: 20px;
+    margin: 10px;
+  }
+
+
+
+  .footerheading{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: -8px;
+  }
+
+  .footer a{
+    font-size: 17px;
+    margin: 5px;
+
+  }
+
+  .footer p{
+    font-size: 30px;
+    margin-top: 12px;
+  }
+
+  .modal{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .modal-content{
+    background-position: -80px left;
+    background-size:120% 100%;
+    height: auto;
+    opacity: 5;
+  }
+
+  .contactForm .formBox .inputBox{
+    position: relative;
+    margin: 0 0 20px 0;
+  }
+
+  .contactForm h2{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: -10px;
+
+  }
+
+  .inputBox span{
+
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+
+  .inputBox button{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .inputBox Button:hover{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .modal i{
+    margin: 25px;
+  }
+
+}
